@@ -1,4 +1,5 @@
 import murmurhash from 'murmurhash';
+// murmurhas:アバランシェ効果より、入力が少し変わるだけで出力が大きく変わるため、均一な分布を期待
 
 class CanvasRouter {
   // ハッシュリング（座標 -> IPアドレス）
