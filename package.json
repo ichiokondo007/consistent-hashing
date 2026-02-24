@@ -1,0 +1,25 @@
+{
+  "name": "consistent-hashing",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/hashRouter.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/hashRouter.js",
+    "dev": "tsc && node dist/hashRouter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "murmurhash": "^2.0.1"
+  }
+}
